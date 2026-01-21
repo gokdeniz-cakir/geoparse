@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+venv/
+
+# (too large for git)
+data/dataset/
+data/testbookpdf/
+data/synthetic*
+data/test_multi_shape
+experiments/
