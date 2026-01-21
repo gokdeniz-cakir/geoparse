@@ -35,6 +35,12 @@ Training on synthetic data alone achieves **excellent performance on synthetic t
 - **Regression Parser**: ResNet18 → 8-dim coordinate output
 - **Keypoint Detector**: Heatmap-based vertex detection (more robust architecture)
 
+**Example From Regression Parser**
+<p align="center">
+  <img src="data/preds/pred_2.png" alt="Prediction Coordinates" width="800"/>
+</p>
+
+
 ### 🧮 Solvers  
 - **Analytic Solver**: Exact geometric calculations from coordinates
 - **Neural Property Regressor**: Predicts all angles/sides from coordinates
