@@ -50,7 +50,7 @@ Training on synthetic data alone achieves **excellent performance on synthetic t
 
 ```bash
 # Clone and setup
-git clone https://github.com/yourusername/geoparse.git
+git clone https://github.com/gokdeniz-cakir/geoparse.git
 cd geoparse
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
@@ -116,7 +116,7 @@ def generate_my_problem():
 1. **Sim2Real is hard** — visual domain gap persists despite domain randomization
 2. **Architecture matters less than data** — keypoint detection didn't magically solve generalization
 3. **Analytic reasoning is easy** — once you have coordinates, math is deterministic
-4. **VLMs are the pragmatic choice** — GPT-4o/Claude can parse diagrams out-of-the-box
+4. **VLMs are the pragmatic choice** — GPT/Claude etc. can parse diagrams out-of-the-box
 
 ## Future Directions
 
